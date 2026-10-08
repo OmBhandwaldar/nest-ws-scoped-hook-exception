@@ -1,0 +1,26 @@
+{
+  "name": "nest-ws-scoped-hook-exception",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start:socket.io": "tsx src/main.ts socket.io",
+    "start:ws": "tsx src/main.ts ws"
+  },
+  "dependencies": {
+    "@nestjs/common": "12.1.2",
+    "@nestjs/core": "12.1.2",
+    "@nestjs/platform-express": "12.1.2",
+    "@nestjs/platform-socket.io": "12.1.2",
+    "@nestjs/platform-ws": "12.1.2",
+    "@nestjs/websockets": "12.1.2",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2",
+    "socket.io-client": "^4.8.1",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.18.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}
